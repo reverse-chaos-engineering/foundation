@@ -312,7 +312,8 @@ We would like to thank the anonymous reviewers for their valuable feedback and s
 
 [6] F. Tao, H. Zhang, A. Liu, and A. Y. C. Nee, "Digital Twin in Industry: State-of-the-Art," *IEEE Transactions on Industrial Informatics*, vol. 15, no. 4, pp. 2405-2415, 2019.
 
-[7] M. Fowler, "ProductionEnvironmentEquivalence," *martinfowler.com*, 2006. [Online]. Available: https://martinfowler.com/bliki/ProductionEnvironmentEquivalence.html
+[7<sup>1</sup>] M. Fowler, "SnowflakeServer" *martinfowler.com*, 2006. [Online]. Available: https://martinfowler.com/bliki/SnowflakeServer.html   
+[7<sup>2</sup>] M. Fowler, "PhoenixServer" *martinfowler.com*, 2006. [Online]. Available: https://martinfowler.com/bliki/PhoenixServer.html
 
 [8] P. Godefroid, N. Klarlund, and K. Sen, "DART: directed automated random testing," *ACM SIGPLAN Conference on Programming Language Design and Implementation*, pp. 213-223, 2005.
 
