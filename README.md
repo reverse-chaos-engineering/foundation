@@ -37,11 +37,14 @@ Several established methodologies address aspects of production system analysis:
 
 **Performance Engineering**, as described by Gregg [5], provides frameworks for analyzing system performance bottlenecks using methodologies like USE (Utilization, Saturation, Errors) and tools for deep system inspection.
 
-**Digital Twins** [6] create virtual replicas of physical systems to analyze behavior and test scenarios. Originally developed for manufacturing, this concept has been adapted to software systems.
+**Digital Twins** [6] create virtual replicas of physical systems to analyze behavior and test scenarios. Originally developed for manufacturing, this concept has been adapted to software systems.   
+For example, Microsoft Azure's cloud-based Digital Twins platform enables developers to simulate and monitor large-scale IoT-enabled environments, such as smart buildings or factories, which mirrors the behavior of actual systems and facilitates debugging, testing, and scenario planning without disrupting production.
 
 **Production Parity**, advocated by Fowler [7], emphasizes maintaining development environments that closely mirror production to detect issues earlier in the development cycle.
 
-While these methodologies provide valuable techniques, they lack a comprehensive framework specifically designed to systematically analyze production instabilities in distributed systems.
+While these methodologies provide valuable techniques, they lack a comprehensive framework specifically designed to systematically analyze production instabilities in distributed systems.   
+
+For instance, although methods like deterministic replay and digital twin modeling aid in reproducing or simulating certain failure modes, they do not offer a full-cycle analytical framework like RCE. As noted by Basiri et al. in their 2016 IEEE Software article on Chaos Engineering, many existing tools lack the reactive diagnostic approach that starts with unexplained production anomalies and works backward to root causes. [2]
 
 ## III. REVERSED CHAOS ENGINEERING DEFINED
 
