@@ -2,7 +2,7 @@
 
 **Abstract**—As distributed systems grow in complexity, understanding and resolving production instabilities becomes increasingly challenging. While traditional Chaos Engineering proactively introduces perturbations into stable systems to test resilience, we propose Reversed Chaos Engineering (RCE) as a complementary methodology that systematically works backward from observed instabilities to their root causes. This paper formalizes RCE as a four-phase process: characterization, hypothesis formulation, instrumented validation, and controlled reproduction. We compare RCE with related methodologies, discuss its integration with existing practices, and provide implementation guidelines. Through case studies, we demonstrate how RCE transforms reactive troubleshooting into a structured scientific process that strengthens system resilience while building organizational knowledge.
 
-**Index Terms**—Distributed Systems, Chaos Engineering, Fault Analysis, System Resilience, DevOps, Site Reliability Engineering
+**Index Terms**—Distributed Systems, Chaos Engineering, Fault Analysis, System Resilience, DevOps, Site Reliability Engineering, Incident Analysis & Root Cause Analysis
 
 ## I. INTRODUCTION
 
